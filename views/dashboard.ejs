@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+</head>
+<body>
+  <h1>Dashboard</h1>
+  <div id="stats">
+    <p>Total: <span id="total"><%= stats.total %></span></p>
+    <p>Total Gold: <span id="totalGold"><%= stats.totalGold %></span></p>
+    <p>Total Red: <span id="totalRed"><%= stats.totalRed %></span></p>
+    <p>Total Green: <span id="totalGreen"><%= stats.totalGreen %></span></p>
+    <p>Total Purple: <span id="totalPurple"><%= stats.totalPurple %></span></p>
+    <p>Total Orange: <span id="totalOrange"><%= stats.totalOrange %></span></p>
+    <p>Recently Checked: <span id="recentlyChecked"><%= stats.recentlyChecked %></span></p>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/script.js"></script>
+</body>
+</html>
