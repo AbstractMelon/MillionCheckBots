@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "concurrently \"nodemon src/client.js\" \"nodemon src/server.js\""
+    "dev": "concurrently \"nodemon src/client.js\" \"nodemon src/server.js\"",
+    "event": "node CreateEvent.js",
+    "test": "nodemon src/test.mjs"
+    
   },
   "keywords": [],
   "author": "",
